@@ -47,20 +47,32 @@
       <sub>Paralel bağlantı çubukları, gerçek zamanlı hız ve otomatik tek/çoklu bağlantı sunucu uyumu</sub>
     </td>
     <td width="50%" align="center">
-      <b>🎨 6 Modern Tema Geçişi / Live Theme Switcher</b><br /><br />
+      <b>🎨 7 Modern Tema Geçişi / Live Theme Switcher</b><br /><br />
       <img src="assets/themes-showcase.gif" alt="Tema Geçişleri GIF" width="420" /><br />
-      <sub>Midnight Blue · <b>Obsidian Carbon</b> · Emerald Teal · Royal Amethyst · Amber Bronze · Nord Frost</sub>
+      <sub><b>macOS</b> · Midnight Blue · <b>Obsidian Carbon</b> · Emerald Teal · Royal Amethyst · Amber Bronze · Nord Frost</sub>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <b>📂 388+ Uzantı & Anlık Eklenti Senkronizasyonu</b><br /><br />
+      <b>🍏 macOS Dark &amp; Trafik Işıkları / macOS Sequoia Dark</b><br /><br />
+      <img src="assets/theme-macos-dark.png" alt="Xenon Download Manager — macOS Dark Teması" width="420" /><br />
+      <sub>Sol trafik ışığı butonları, ortalanmış başlık, squircle ikonlar ve Apple Blue kontroller</sub>
+    </td>
+    <td width="50%" align="center">
+      <b>☀️ macOS Light / macOS Sonoma Light</b><br /><br />
+      <img src="assets/theme-macos-light.png" alt="Xenon Download Manager — macOS Light Teması" width="420" /><br />
+      <sub>Gümüş-gri macOS üst çubuk, Finder kenar çubuğu ve canlı squircle vektör simgeler</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>📂 388+ Uzantı &amp; Anlık Eklenti Senkronizasyonu</b><br /><br />
       <img src="assets/options-filetypes.png" alt="Dosya Türleri ve İstisna Ayarları" width="420" /><br />
       <sub>Eklenen uzantı anında yakalanır, silinen uzantı tarayıcıya geri devredilir</sub>
     </td>
     <td width="50%" align="center">
-      <b>🔄 Hakkında & Uygulama İçi Güncelleme</b><br /><br />
-      <img src="assets/about.png" alt="Xenon Download Manager Hakkında" width="420" /><br />
+      <b>🔄 Hakkında &amp; Uygulama İçi Güncelleme</b><br /><br />
+      <img src="assets/macos-about-dark.png" alt="Xenon Download Manager Hakkında (macOS)" width="420" /><br />
       <sub>GitHub Releases üzerinden doğrudan uygulama içi indir, kur ve yeniden başlat</sub>
     </td>
   </tr>
@@ -89,7 +101,7 @@
 - **Video & Medya Akışı Yakalama:** Yerleşik **HLS (`.m3u8`)**, **DASH (`.mpd`)**, **MP4**, **TS**, **FLV**, **M4A** ve **WEBM/Opus** akış indirme ve yerel FFmpeg birleştirme (`avc1 + mp4a` uyumlu akışlarda yeniden kodlama yapmadan kayıpsız birleştirme).
 - **Esnek Dosya Türü & İstisna Yönetimi:** Video, ses, arşiv ve yürütülebilir dosyalar dâhil **388+ uzantı** varsayılan olarak tanımlıdır. *Seçenekler → Dosya türleri* ekranında eklediğiniz yeni uzantılar anında yakalanır, sildiğiniz uzantılar tarayıcıya geri devredilir.
 - **Akıllı Yönlendirme & Güvenlik:** Ara indirme sayfalarını ve yönlendirmeleri otomatik çözer; geçersiz/süresi dolmuş TLS sertifikalarında beklemeden anında uyarı verir.
-- **Zengin Araçlar:** Zamanlayıcı ve kuyruk yönetimi, toplu indirme, arşiv açma, BitTorrent, komut satırı aracı (`xdm-cli`) ve 9 modern tema (**Midnight Blue**, **Obsidian Carbon**, **Emerald Teal**, **Royal Amethyst**, **Amber Bronze**, **Nord Frost**, **Sakura Rose**, **Cobalt Steel**, **Arctic Slate**).
+- **Zengin Araçlar:** Zamanlayıcı ve kuyruk yönetimi, toplu indirme, arşiv açma, BitTorrent, komut satırı aracı (`xdm-cli`) ve **10 modern tema** (**macOS Dark/Light**, **Midnight Blue**, **Obsidian Carbon**, **Emerald Teal**, **Royal Amethyst**, **Amber Bronze**, **Nord Frost**, **Sakura Rose**, **Cobalt Steel**, **Arctic Slate**).
 - **Uygulama İçi Güncelleme:** *Yardım → Güncelleştirmeleri denetle* üzerinden yeni Windows sürümlerini doğrudan GitHub Releases'tan indirir, `SHA256SUMS.txt` ile doğrular, kurar ve uygulamayı otomatik yeniden başlatır.
 
 ---
@@ -189,7 +201,7 @@
 - **Video & Stream Capture:** Native **HLS (`.m3u8`)**, **DASH (`.mpd`)**, **MP4**, **TS**, **FLV**, **M4A**, and **WEBM/Opus** downloading with local FFmpeg muxing (stream-copying compatible `avc1 + mp4a` tracks before falling back to re-encoding).
 - **Dynamic File Types & Smart Exclusions:** Ships with **388+ extensions** covering video, audio, archives, documents, and installers. Adding or removing extensions in *Options → File types* syncs live with the browser extension; removed types immediately fall back to the browser.
 - **Smart Redirect Handling & Security:** Resolves indirect download pages and meta-refreshes automatically, rejects HTML decoy responses for binary links, and fails fast on invalid/expired TLS certificates.
-- **Built-in Tools:** Queue & scheduler, batch downloads, archive extraction, BitTorrent, CLI tool (`xdm-cli`), and 9 modern themes (**Midnight Blue**, **Obsidian Carbon**, **Emerald Teal**, **Royal Amethyst**, **Amber Bronze**, **Nord Frost**, **Sakura Rose**, **Cobalt Steel**, **Arctic Slate**).
+- **Built-in Tools:** Queue & scheduler, batch downloads, archive extraction, BitTorrent, CLI tool (`xdm-cli`), and **10 modern themes** (**macOS Dark/Light**, **Midnight Blue**, **Obsidian Carbon**, **Emerald Teal**, **Royal Amethyst**, **Amber Bronze**, **Nord Frost**, **Sakura Rose**, **Cobalt Steel**, **Arctic Slate**).
 - **In-App Self-Updater:** *Help → Check for updates* checks GitHub Releases, verifies checksums (`SHA256SUMS.txt`), downloads inside the app with a progress bar, installs, and restarts automatically.
 
 ---
