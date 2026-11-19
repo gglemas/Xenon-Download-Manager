@@ -91,7 +91,7 @@
 
 ### Paylaşım Politikası ve Lisans
 
-- Bu depoda şimdilik yalnızca **Windows uyumlu derlenmiş sürümler (Releases)** ve kullanım dokümantasyonu paylaşılmaktadır; çekirdek indirme motoru kaynak kodları bu aşamada depoya dâhil edilmemiştir.
+- Bu depoda şimdilik yalnızca **Windows uyumlu derlenmiş sürümler (Releases)** ve kullanım dokümantasyonu paylaşılmaktadır; çekirdek indirme motoru kaynak kodları bu aşamada depoya dâhil edilmemektedir.
 - **Lisans:** GNU General Public License v3.0 or later (`LICENSE`). Simge setleri ve yerel coğrafi veri bileşenleri kendi açık lisanslarına (MIT, ISC, LGPL-3.0, CC BY 4.0) tabidir.
 
 ---
