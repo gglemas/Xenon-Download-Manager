@@ -1,6 +1,80 @@
+<div align="center">
+
+<img src="assets/logo.png" width="96" height="96" alt="Xenon Download Manager Logo" />
+
 # Xenon Download Manager
 
-> **[🇹🇷 Türkçe](#-türkçe)** · **[🇬🇧 English](#-english)** · **[⬇️ Windows İndir / Download (Releases)](https://github.com/gglemas/Xenon-Download-Manager/releases/latest)**
+**Windows (64-bit) için Rust ile geliştirilmiş yeni nesil, hızlı ve ücretsiz indirme yöneticisi**
+*Next-generation, ultra-fast, free download manager built with Rust for Windows (64-bit)*
+
+<p>
+  <a href="https://github.com/gglemas/Xenon-Download-Manager/releases/latest">
+    <img src="https://img.shields.io/github/v/release/gglemas/Xenon-Download-Manager?style=for-the-badge&logo=github&label=Windows%20Release&color=00A8E8" alt="Latest Release" />
+  </a>
+  <img src="https://img.shields.io/badge/Platform-Windows%2010%2F11%20x64-0078D6?style=for-the-badge&logo=windows" alt="Windows x64" />
+  <img src="https://img.shields.io/badge/Built%20with-Rust-CE422B?style=for-the-badge&logo=rust" alt="Rust" />
+  <img src="https://img.shields.io/badge/License-GPL--3.0-2EA44F?style=for-the-badge" alt="GPL-3.0" />
+</p>
+
+<p>
+  <a href="https://deepmind.google/technologies/gemini/">
+    <img src="https://img.shields.io/badge/Co--Engineered%20with-Google%20Gemini%20%C2%B7%20Antigravity-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Co-Engineered with Google Gemini" />
+  </a>
+  <img src="https://img.shields.io/badge/Theme%20Edition-Obsidian%20Carbon-18181B?style=for-the-badge&logo=carbon&logoColor=38BDF8" alt="Obsidian Carbon" />
+</p>
+
+**[🇹🇷 Türkçe](#-türkçe)** · **[🇬🇧 English](#-english)** · **[🎬 Canlı Görünüm / Showcase](#-canlı-görünüm--live-showcase)** · **[🧩 Eklenti Kurulumu](#-tarayıcı-eklentisi-nasıl-kurulur)** · **[⬇️ Windows İndir / Download](https://github.com/gglemas/Xenon-Download-Manager/releases/latest)**
+
+</div>
+
+---
+
+## 🎬 Canlı Görünüm / Live Showcase
+
+<div align="center">
+  <img src="assets/main-window.png" alt="Xenon Download Manager — Ana Pencere (Midnight Blue)" width="880" />
+  <br />
+  <sub><b>Ana Pencere (Midnight Blue)</b> — Çoklu kategori filtresi, canlı hız grafiği ve modern karanlık arayüz</sub>
+</div>
+
+<br />
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <b>⚡ Çoklu Bağlantı Canlı İlerleme / Live Multi-Connection</b><br /><br />
+      <img src="assets/progress-live.gif" alt="Canlı Çoklu Bağlantı İlerleme GIF" width="420" /><br />
+      <sub>Paralel bağlantı çubukları, gerçek zamanlı hız ve otomatik tek/çoklu bağlantı sunucu uyumu</sub>
+    </td>
+    <td width="50%" align="center">
+      <b>🎨 6 Modern Tema Geçişi / Live Theme Switcher</b><br /><br />
+      <img src="assets/themes-showcase.gif" alt="Tema Geçişleri GIF" width="420" /><br />
+      <sub>Midnight Blue · <b>Obsidian Carbon</b> · Emerald Teal · Royal Amethyst · Amber Bronze · Nord Frost</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>📂 388+ Uzantı & Anlık Eklenti Senkronizasyonu</b><br /><br />
+      <img src="assets/options-filetypes.png" alt="Dosya Türleri ve İstisna Ayarları" width="420" /><br />
+      <sub>Eklenen uzantı anında yakalanır, silinen uzantı tarayıcıya geri devredilir</sub>
+    </td>
+    <td width="50%" align="center">
+      <b>🔄 Hakkında & Uygulama İçi Güncelleme</b><br /><br />
+      <img src="assets/about.png" alt="Xenon Download Manager Hakkında" width="420" /><br />
+      <sub>GitHub Releases üzerinden doğrudan uygulama içi indir, kur ve yeniden başlat</sub>
+    </td>
+  </tr>
+</table>
+
+<details>
+  <summary><b>🖤 Obsidian Carbon Özel Görünümünü Aç / View Obsidian Carbon Edition</b></summary>
+  <br />
+  <div align="center">
+    <img src="assets/theme-obsidian-carbon.png" alt="Xenon Download Manager — Obsidian Carbon Teması" width="840" />
+    <br />
+    <sub><b>Obsidian Carbon</b> — Yüksek kontrastlı saf karbon koyu tema</sub>
+  </div>
+</details>
 
 ---
 
@@ -15,8 +89,8 @@
 - **Video & Medya Akışı Yakalama:** Yerleşik **HLS (`.m3u8`)**, **DASH (`.mpd`)**, **MP4**, **TS**, **FLV**, **M4A** ve **WEBM/Opus** akış indirme ve yerel FFmpeg birleştirme (`avc1 + mp4a` uyumlu akışlarda yeniden kodlama yapmadan kayıpsız birleştirme).
 - **Esnek Dosya Türü & İstisna Yönetimi:** Video, ses, arşiv ve yürütülebilir dosyalar dâhil **388+ uzantı** varsayılan olarak tanımlıdır. *Seçenekler → Dosya türleri* ekranında eklediğiniz yeni uzantılar anında yakalanır, sildiğiniz uzantılar tarayıcıya geri devredilir.
 - **Akıllı Yönlendirme & Güvenlik:** Ara indirme sayfalarını ve yönlendirmeleri otomatik çözer; geçersiz/süresi dolmuş TLS sertifikalarında beklemeden anında uyarı verir.
-- **Zengin Araçlar:** Zamanlayıcı ve kuyruk yönetimi, toplu indirme, arşiv açma, BitTorrent, komut satırı aracı (`xdm-cli`) ve modern koyu/açık temalar.
-- **Uygulama İçi Güncelleme:** *Yardım → Güncelleştirmeleri denetle* üzerinden yeni Windows sürümlerini doğrudan GitHub Releases'tan indirir, kurar ve uygulamayı otomatik yeniden başlatır.
+- **Zengin Araçlar:** Zamanlayıcı ve kuyruk yönetimi, toplu indirme, arşiv açma, BitTorrent, komut satırı aracı (`xdm-cli`) ve 9 modern tema (**Midnight Blue**, **Obsidian Carbon**, **Emerald Teal**, **Royal Amethyst**, **Amber Bronze**, **Nord Frost**, **Sakura Rose**, **Cobalt Steel**, **Arctic Slate**).
+- **Uygulama İçi Güncelleme:** *Yardım → Güncelleştirmeleri denetle* üzerinden yeni Windows sürümlerini doğrudan GitHub Releases'tan indirir, `SHA256SUMS.txt` ile doğrular, kurar ve uygulamayı otomatik yeniden başlatır.
 
 ---
 
@@ -41,6 +115,14 @@
 ---
 
 ### Tarayıcı Eklentisi Nasıl Kurulur?
+
+<div align="center">
+  <img src="assets/extension-guide.gif" alt="Hareketli Tarayıcı Eklentisi Kurulum Rehberi GIF" width="660" />
+  <br />
+  <sub><b>4 Adımda Canlı Kurulum Rehberi</b> — Uygulama içindeki <i>Yardım → Tarayıcı eklenti rehberi</i> animasyonundan alınmıştır</sub>
+</div>
+
+<br />
 
 #### 1. Masaüstü Köprüsünü Etkinleştirme
 1. İndirdiğiniz ZIP arşivini kalıcı bir klasöre çıkarın (ör. `C:\Apps\Xenon Download Manager\`).
@@ -71,9 +153,9 @@
 
 #### 4. Kullanım İpuçları
 - **Tarayıcıyla İndirme (Geçici Devre Dışı):** Bir bağlantıyı Xenon yerine doğrudan tarayıcıyla indirmek için bağlantıya **`Alt` + tıklayın**.
-- **Video İndirme Düğmesi:** Desteklenen video oynatıcıların üzerinde görünen **Xenon** düğmesinden çözünürlük, ses (M4A / WEBM-Opus) ve kapsayıcı formatı (MP4 / TS / FLV / MOV) seçebilirsiniz.
+- **Video İndirme Düğmesi:** Desteklenen video oynatıcıların üzerinde görünen **Xenon** düğmesinden çözünürlük, ses (`M4A` / `WEBM-Opus`) ve kapsayıcı formatı (`MP4` / `TS` / `FLV` / `MOV`) seçebilirsiniz.
 - **Canlı Uzantı Senkronizasyonu:** *Seçenekler → Dosya türleri* listesinde uzantı ekleyip sildiğinizde değişiklikler tarayıcı eklentisine anında yansır.
-- **Bağlantı Sorunu Giderme:** Eklenti simgesi kırmızı/bağlı değil görünüyorsa `xdm.exe` uygulamasının açık olduğundan emin olun ve program klasöründe `.\xdm-nmhost.exe --register` komutunu çalıştırıp tarayıcıyı yeniden başlatın.
+- **Bağlantı Sorunu Giderme:** Eklenti simgesi bağlı değil görünüyorsa `xdm.exe` uygulamasının açık olduğundan emin olun, program klasöründe `.\xdm-nmhost.exe --register` komutunu çalıştırıp tarayıcıyı yeniden başlatın.
 
 ---
 
@@ -107,8 +189,8 @@
 - **Video & Stream Capture:** Native **HLS (`.m3u8`)**, **DASH (`.mpd`)**, **MP4**, **TS**, **FLV**, **M4A**, and **WEBM/Opus** downloading with local FFmpeg muxing (stream-copying compatible `avc1 + mp4a` tracks before falling back to re-encoding).
 - **Dynamic File Types & Smart Exclusions:** Ships with **388+ extensions** covering video, audio, archives, documents, and installers. Adding or removing extensions in *Options → File types* syncs live with the browser extension; removed types immediately fall back to the browser.
 - **Smart Redirect Handling & Security:** Resolves indirect download pages and meta-refreshes automatically, rejects HTML decoy responses for binary links, and fails fast on invalid/expired TLS certificates.
-- **Built-in Tools:** Queue & scheduler, batch downloads, archive extraction, BitTorrent, CLI tool (`xdm-cli`), and modern dark/light themes.
-- **In-App Self-Updater:** *Help → Check for updates* checks GitHub Releases, downloads updates inside the app with a progress bar, installs, and restarts automatically.
+- **Built-in Tools:** Queue & scheduler, batch downloads, archive extraction, BitTorrent, CLI tool (`xdm-cli`), and 9 modern themes (**Midnight Blue**, **Obsidian Carbon**, **Emerald Teal**, **Royal Amethyst**, **Amber Bronze**, **Nord Frost**, **Sakura Rose**, **Cobalt Steel**, **Arctic Slate**).
+- **In-App Self-Updater:** *Help → Check for updates* checks GitHub Releases, verifies checksums (`SHA256SUMS.txt`), downloads inside the app with a progress bar, installs, and restarts automatically.
 
 ---
 
@@ -133,6 +215,14 @@ Currently only **Windows 64-bit (x64)** releases are published. Download the pac
 ---
 
 ### Browser Extension Installation Guide
+
+<div align="center">
+  <img src="assets/extension-guide.gif" alt="Animated Browser Extension Installation Guide GIF" width="660" />
+  <br />
+  <sub><b>4-Step Interactive Guide</b> — Recorded live from <i>Help → Browser extension guide</i> inside Xenon Download Manager</sub>
+</div>
+
+<br />
 
 #### 1. Register the Native Messaging Host
 1. Extract the Windows ZIP archive into a permanent folder (e.g., `C:\Apps\Xenon Download Manager\`).
@@ -185,3 +275,23 @@ Currently only **Windows 64-bit (x64)** releases are published. Download the pac
 
 - At this stage, this repository publishes **Windows binaries (Releases)** and documentation only; the core download engine source code is not included in the public repository yet.
 - **License:** GNU General Public License v3.0 or later (`LICENSE`). Bundled icon themes and local GeoIP databases remain under their respective open licenses (MIT, ISC, LGPL-3.0, CC BY 4.0).
+
+---
+
+<div align="center">
+
+### ✨ Geliştirme İmzası / Co-Development Signature
+
+<a href="https://deepmind.google/technologies/gemini/">
+  <img src="https://img.shields.io/badge/Google%20Gemini-Antigravity%20AI%20Partner-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini Antigravity" />
+</a>
+<img src="https://img.shields.io/badge/Design%20Signature-Obsidian%20Carbon%20%E2%9C%A6%20Midnight%20Blue-111827?style=for-the-badge&logo=carbon&logoColor=38BDF8" alt="Obsidian Carbon Signature" />
+
+<br />
+
+<sub>
+  <b>gglemas</b> &amp; <b>Google Gemini (Antigravity)</b> tarafından birlikte tasarlandı, test edildi ve cilalandı.<br />
+  <i>Architected, engineered, stress-tested, and polished together by <b>gglemas</b> &amp; <b>Google Gemini (Antigravity)</b> — Carbon Edition.</i>
+</sub>
+
+</div>
