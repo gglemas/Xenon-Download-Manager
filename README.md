@@ -4,8 +4,8 @@
 
 # Xenon Download Manager
 
-**Windows (64-bit) için Rust ile geliştirilmiş yeni nesil, hızlı ve ücretsiz indirme yöneticisi**  
-*Next-generation, ultra-fast, free download manager built with Rust for Windows (64-bit)*
+**Next-generation, ultra-fast, free download manager built with Rust for Windows (64-bit)**  
+*Windows (64-bit) için Rust ile geliştirilmiş yeni nesil, hızlı ve ücretsiz indirme yöneticisi*
 
 <p>
   <a href="https://github.com/gglemas/Xenon-Download-Manager/releases/latest">
@@ -24,168 +24,9 @@
   <img src="https://img.shields.io/badge/Embedded%20JS-QuickJS--ng%200.18-4F46E5?style=for-the-badge" alt="Embedded QuickJS-ng" />
 </p>
 
-**[🇹🇷 Türkçe](#-türkçe)** · **[🇬🇧 English](#-english)** · **[🎬 Ekran Görüntüleri / Showcase](#-canlı-görünüm--türkçe-arayüz)** · **[🧩 Uzantı Kurulumu](#-tarayıcı-uzantısı-nasıl-kurulur)** · **[⬇️ Windows İndir / Download](https://github.com/gglemas/Xenon-Download-Manager/releases/latest)**
+**[🇬🇧 English](#-english)** · **[🇹🇷 Türkçe](#-türkçe)** · **[🎬 Live Showcase](#-live-showcase--english-interface-v015)** · **[🧩 Browser Extension](#-browser-extension-installation-guide)** · **[⬇️ Download for Windows](https://github.com/gglemas/Xenon-Download-Manager/releases/latest)**
 
 </div>
-
----
-
-## 🇹🇷 Türkçe
-
-### 🎬 Canlı Görünüm — Türkçe Arayüz (`v0.1.5`)
-
-<div align="center">
-  <img src="assets/main-window.png" alt="Xenon Download Manager v0.1.5 — Xenon Nexus Koyu (Tam Görünüm)" width="900" />
-  <br />
-  <sub><b>Xenon Nexus Koyu (Tam Görünüm)</b> — Geçişli <i>URL ekle</i> düğmesi, <b>Lite | Tam</b> anahtarı, modern kenar çubuğu, canlı çoklu bağlantı ilerlemesi ve sürüklenebilir <i>Ayrıntılar</i> paneli</sub>
-</div>
-
-<br />
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <b>✨ Lite Görünüm (<code>Ctrl+Shift+L</code>)</b><br /><br />
-      <img src="assets/lite-mode.png" alt="Xenon Download Manager — Lite Görünüm (Koyu)" width="430" /><br />
-      <sub>Sade araç çubuğu, odaklı 4 sütunlu liste, ayrı pencere boyutu ve isteğe bağlı Ayrıntılar paneli</sub>
-    </td>
-    <td width="50%" align="center">
-      <b>☀️ Xenon Nexus Açık Tema</b><br /><br />
-      <img src="assets/main-window-light.png" alt="Xenon Download Manager — Xenon Nexus Açık Tema" width="430" /><br />
-      <sub>Temiz açık palet, derin gökyüzü ve çivit vurguları, canlı kategori etiketleri</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <b>⚡ Çoklu Bağlantı Canlı İlerleme</b><br /><br />
-      <img src="assets/progress-live.gif" alt="Canlı Çoklu Bağlantı İlerleme GIF" width="430" /><br />
-      <sub>8 paralel bağlantı parçası, gerçek zamanlı hız ve otomatik tek/çoklu bağlantı uyumu</sub>
-    </td>
-    <td width="50%" align="center">
-      <b>🎨 11 Modern Tema Geçişi</b><br /><br />
-      <img src="assets/themes-showcase.gif" alt="11 Tema Geçişi GIF" width="430" /><br />
-      <sub><b>Xenon Nexus</b> · macOS · Obsidian Carbon · Midnight Blue · Emerald Teal · Royal Amethyst · Nord Frost ve daha fazlası</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <b>🍏 macOS Koyu Tema</b><br /><br />
-      <img src="assets/theme-macos-dark.png" alt="Xenon Download Manager — macOS Koyu Teması" width="430" /><br />
-      <sub>Yuvarlak pencere düğmeleri, macOS kenar çubuğu ve squircle simgeler</sub>
-    </td>
-    <td width="50%" align="center">
-      <b>🤍 macOS Açık Tema</b><br /><br />
-      <img src="assets/theme-macos-light.png" alt="Xenon Download Manager — macOS Açık Teması" width="430" /><br />
-      <sub>Gümüş-gri üst çubuk, yumuşak açık yüzeyler ve Apple Blue vurguları</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <b>🍪 Yedek <code>cookies.txt</code> &amp; Site Oturumları</b><br /><br />
-      <img src="assets/options-cookies.png" alt="Site Oturumları ve Yedek Çerez Dosyası Ayarı" width="430" /><br />
-      <sub>Okul/MEB veya ortak ağlarda bot doğrulamasında otomatik devreye giren yerel yedek çerez desteği</sub>
-    </td>
-    <td width="50%" align="center">
-      <b>📂 388+ Uzantı &amp; Anlık Senkronizasyon</b><br /><br />
-      <img src="assets/options-filetypes.png" alt="Dosya Türleri ve İstisna Ayarları" width="430" /><br />
-      <sub>Eklenen uzantı anında yakalanır, silinen uzantı tarayıcıya geri devredilir</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <b>🧩 Tarayıcı Uzantısı Kılavuzu</b><br /><br />
-      <img src="assets/extension-guide.png" alt="Tarayıcı Uzantısı Kurulum Kılavuzu" width="430" /><br />
-      <sub>Chrome, Edge, Brave, Opera, Vivaldi ve Firefox için 4 adımlı etkileşimli kurulum rehberi</sub>
-    </td>
-    <td width="50%" align="center">
-      <b>🔄 Hakkında &amp; Uygulama İçi Güncelleme</b><br /><br />
-      <img src="assets/about.png" alt="Xenon Download Manager v0.1.5 Hakkında" width="430" /><br />
-      <sub>GitHub Releases üzerinden SHA-256 doğrulamalı tek tıkla güncelleme ve otomatik yeniden başlatma</sub>
-    </td>
-  </tr>
-</table>
-
-<details>
-  <summary><b>🖤 Obsidian Carbon Görünümünü Aç</b></summary>
-  <br />
-  <div align="center">
-    <img src="assets/theme-obsidian-carbon.png" alt="Xenon Download Manager — Obsidian Carbon Teması" width="840" />
-    <br />
-    <sub><b>Obsidian Carbon</b> — Yüksek kontrastlı saf karbon koyu tema</sub>
-  </div>
-</details>
-
----
-
-### Uygulama Hakkında
-
-**Xenon Download Manager**, Windows (64-bit) için Rust ile geliştirilmiş hızlı, hafif ve ücretsiz bir indirme yöneticisidir. Kayıt, reklam veya abonelik gerektirmez.
-
-#### Öne Çıkan Özellikler
-- **Lite / Tam Görünüm & Modern Tasarım:** `Ctrl+Shift+L`, *Görünüm* menüsü veya araç çubuğundaki **Lite | Tam** anahtarıyla sade ve tam görünüm arasında anında geçiş; sürüklenebilir *Ayrıntılar* paneli, dar pencerede akıllı araç çubuğu taşma (`...`) menüsü, *Görünüm → Yoğunluk* (**Otomatik / Ferah / Kompakt**) ve **11 modern tema** (**Xenon Nexus**, **macOS**, **Obsidian Carbon**, **Midnight Blue**, **Emerald Teal**, **Royal Amethyst**, **Amber Bronze**, **Nord Frost**, **Sakura Rose**, **Cobalt Steel**, **Arctic Slate**).
-- **Çoklu Bağlantı & Akıllı Adres Yenileme:** Dosyaları paralel parçalara bölerek hızlandırır, tek bağlantılı sunuculara otomatik uyum sağlar. Süresi dolan indirme linklerinde *İndirme adresini yenile* penceresi açıkken tarayıcıdan aynı dosya tetiklendiğinde taze link/çerez/Referer otomatik aktarılır ve indirme kaldığı yerden sürdürülür.
-- **Gömülü `quickjs-ng v0.18.0` ile Sıfır Kurulum YouTube & Video Yakalama:** Harici `deno.exe` veya `node` kurulumu gerektirmeden YouTube JS imza/challenge akışlarını doğrudan `xdm.exe` içinde çözer. Yerleşik **HLS (`.m3u8`)**, **DASH (`.mpd`)**, **MP4**, **TS**, **FLV**, **M4A**, **WEBM/Opus** akış indirme, 3 parçalı `HEAD` ile gerçekçi VBR HLS boyut tahmini ve yerleşik LGPL FFmpeg birleştirme sunar.
-- **Okul / Kurumsal (MEB) Ağı & Yedek `cookies.txt` Kurtarma:** Sistem kök sertifikası doğrulamalı TLS kurtarma ve *Seçenekler → Site oturumları → Yedek çerez dosyası* desteğiyle yalnızca indirme bot doğrulaması/yetki hatasıyla engellendiğinde yerel çerez dosyasını otomatik devreye alır *(kendi `cookies.txt` dosyanızı yerelde oluşturmak için [Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc) uzantısını kullanabilirsiniz)*.
-- **Zengin Araçlar & Yerel Windows Deneyimi:** Zamanlayıcı ve kuyruk yönetimi, indirme başına hız sınırlayıcı, toplu indirme, arşiv ayıklama, BitTorrent, komut satırı aracı (`xdm-cli`), saydam yüksek çözünürlüklü simgeler, gömülü 4 özgün `.wav` bildirim sesi ve yerel Windows `ShellExecute` / `SHOpenWithDialog` (*Birlikte aç*) desteği.
-
----
-
-### Windows Kurulumu (Windows 10 / 11 — 64-bit)
-
-[Releases](https://github.com/gglemas/Xenon-Download-Manager/releases/latest) sayfasından ihtiyacınıza uygun paketi indirin:
-
-| Paket | Açıklama |
-|---|---|
-| `Xenon-<sürüm>-setup.exe` | **Önerilen kurulum sihirbazı.** Uygulamayı, yerleşik FFmpeg'i ve tarayıcı iletişim köprüsünü tek seferde kurar. |
-| `Xdm-<sürüm>-x64.zip` | **Standart ZIP paketi.** İstediğiniz bir klasöre çıkarıp `xdm.exe` dosyasını çalıştırın. Ayarlar `%APPDATA%` içinde saklanır. |
-| `Xdm-<sürüm>-portable.zip` | **Taşınabilir (Portable) paket.** İçindeki `data` klasörü sayesinde tüm ayarlar ve indirme listesi uygulamanın yanında tutulur; kayıt defterine yazmaz. |
-| `mdm-chromium.zip` / `mdm-firefox.xpi` | Yalnızca tarayıcı uzantısını ayrıca indirmek isteyenler için ek paketler *(ana Windows paketlerinin içinde `extension/` klasöründe de bulunur)*. |
-
----
-
-### Tarayıcı Uzantısı Nasıl Kurulur?
-
-#### 1. Masaüstü Köprüsünü Etkinleştirme
-1. `Xenon-<sürüm>-setup.exe` kurulumu tarayıcı köprüsünü otomatik kaydeder.
-2. ZIP veya taşınabilir pakette `xdm.exe` dosyasını çalıştırın; manuel kayıt gerekirse program klasöründe şu komutu çalıştırabilirsiniz:
-   ```powershell
-   .\xdm-nmhost.exe --register
-   ```
-   > **İpucu:** Uygulama içinde **Yardım → Tarayıcı uzantısı kılavuzu** penceresindeki **"Uzantı klasörünü aç"** düğmesi doğrudan `extension` klasörünü açar.
-
-#### 2. Google Chrome / Microsoft Edge / Brave / Opera / Vivaldi
-1. Adres çubuğuna tarayıcınızın uzantılar sayfasını yazın: `chrome://extensions`, `edge://extensions`, `brave://extensions`, `opera://extensions` veya `vivaldi://extensions`.
-2. Sağ üstten **Geliştirici modu (Developer mode)** anahtarını açın.
-3. **Paketlenmemiş öğe yükle (Load unpacked)** düğmesine tıklayıp `xdm.exe` yanındaki **`extension\chromium`** klasörünü seçin.
-4. Araç çubuğundaki **Uzantılar (yapboz)** simgesinden **Xenon Download Manager** uzantısını sabitleyin.
-
-#### 3. Mozilla Firefox
-1. Adres çubuğuna `about:debugging#/runtime/this-firefox` yazın.
-2. **Geçici Eklenti Yükle... (Load Temporary Add-on...)** düğmesine tıklayıp **`extension\mdm-firefox.xpi`** dosyasını seçin.
-
-#### 4. Kullanım İpuçları
-- **Geçici olarak tarayıcıyla indirme:** Bağlantıya **`Alt` + tıklayın**.
-- **Video yakalama düğmesi:** Desteklenen oynatıcıların üzerinde görünen **Xenon** düğmesinden 8K'ya kadar çözünürlük, ses (`M4A` / `WEBM-Opus`) ve kapsayıcı (`MP4` / `TS` / `MKV` / `FLV` / `MOV`) seçebilirsiniz.
-- **Canlı uzantı senkronizasyonu:** *Seçenekler → Dosya türleri* listesinde yapılan değişiklikler tarayıcı uzantısına anında yansır.
-
----
-
-### Komut Satırı (`xdm-cli`)
-
-```powershell
-# Doğrudan dosya, HLS (.m3u8) veya DASH (.mpd) indirme
-.\xdm-cli.exe get "https://example.com/file.zip" -o ".\indirilenler"
-
-# Video / DASH akışını belirli kapsayıcıda indirme (.mp4, .ts, .flv)
-.\xdm-cli.exe get "https://example.com/stream/manifest.mpd" -o ".\video.mp4"
-```
-
----
-
-### Paylaşım Politikası ve Lisans
-
-- Bu genel depoda yalnızca **Windows uyumlu derlenmiş sürümler (Releases)** ve dokümantasyon paylaşılmaktadır.
-- **Lisans:** GNU General Public License v3.0 or later (`LICENSE`). Yerleşik `quickjs-ng`, FFmpeg (LGPL), simge setleri ve yerel coğrafi veri bileşenleri kendi açık lisanslarına (MIT, ISC, LGPL-2.1/3.0, CC BY 4.0) tabidir.
 
 ---
 
@@ -216,29 +57,63 @@
   </tr>
   <tr>
     <td width="50%" align="center">
+      <b>⚡ Live Multi-Connection Acceleration</b><br /><br />
+      <img src="assets/progress-live-en.gif" alt="Live Multi-Connection Progress GIF (English)" width="430" /><br />
+      <sub>8 parallel connection segments, real-time speed telemetry, and automatic single/multi-connection adaptation</sub>
+    </td>
+    <td width="50%" align="center">
+      <b>🎨 11 Modern Themes Live Switcher</b><br /><br />
+      <img src="assets/themes-showcase-en.gif" alt="11 Modern Themes Live Switcher GIF (English)" width="430" /><br />
+      <sub><b>Xenon Nexus</b> · macOS Dark/Light · Obsidian Carbon · Midnight Blue · Emerald Teal · Royal Amethyst · Nord Frost &amp; more</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>🍏 macOS Dark Theme</b><br /><br />
+      <img src="assets/theme-macos-dark-en.png" alt="Xenon Download Manager — macOS Dark Theme (English)" width="430" /><br />
+      <sub>macOS window buttons, Finder-inspired sidebar, and vibrant squircle icons</sub>
+    </td>
+    <td width="50%" align="center">
+      <b>🤍 macOS Light Theme</b><br /><br />
+      <img src="assets/theme-macos-light-en.png" alt="Xenon Download Manager — macOS Light Theme (English)" width="430" /><br />
+      <sub>Silver-gray macOS titlebar, soft light surfaces, and Apple Blue accents</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
       <b>🍪 Fallback <code>cookies.txt</code> &amp; Sites Logins</b><br /><br />
       <img src="assets/options-cookies-en.png" alt="Sites Logins and Fallback cookies.txt Option (English)" width="430" /><br />
-      <sub>Optional local Netscape <code>cookies.txt</code> used automatically only when a download hits a bot check or auth block</sub>
+      <sub>Optional local Netscape <code>cookies.txt</code> activated automatically only when a download hits a bot check or auth block</sub>
     </td>
+    <td width="50%" align="center">
+      <b>📂 388+ File Types &amp; Live Extension Sync</b><br /><br />
+      <img src="assets/options-filetypes-en.png" alt="File Types and Exclusions Settings (English)" width="430" /><br />
+      <sub>Added extensions are captured instantly; removed types immediately hand back to your browser</sub>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" align="center">
       <b>🧩 Browser Extension Guide</b><br /><br />
       <img src="assets/extension-guide-en.png" alt="Browser Extension Guide (English)" width="430" /><br />
       <sub>Built-in 4-step interactive setup guide for Chromium-based browsers and Firefox</sub>
     </td>
-  </tr>
-  <tr>
     <td width="50%" align="center">
       <b>🔄 About &amp; In-App Self-Updater</b><br /><br />
       <img src="assets/about-en.png" alt="About Xenon Download Manager v0.1.5 (English)" width="430" /><br />
       <sub>Checks GitHub Releases, verifies <code>SHA256SUMS.txt</code>, installs, and restarts automatically</sub>
     </td>
-    <td width="50%" align="center">
-      <b>🎨 11 Modern Themes Showcase</b><br /><br />
-      <img src="assets/themes-showcase.gif" alt="11 Modern Themes Live Switcher GIF" width="430" /><br />
-      <sub><b>Xenon Nexus</b> · macOS Dark/Light · Obsidian Carbon · Midnight Blue · Emerald Teal · Royal Amethyst · Nord Frost &amp; more</sub>
-    </td>
   </tr>
 </table>
+
+<details>
+  <summary><b>🖤 View Obsidian Carbon Edition (English)</b></summary>
+  <br />
+  <div align="center">
+    <img src="assets/theme-obsidian-carbon-en.png" alt="Xenon Download Manager — Obsidian Carbon Theme (English)" width="840" />
+    <br />
+    <sub><b>Obsidian Carbon</b> — High-contrast pure carbon dark theme</sub>
+  </div>
+</details>
 
 ---
 
@@ -296,9 +171,150 @@ Download the package that fits your workflow from [Releases](https://github.com/
 
 ---
 
+## 🇹🇷 Türkçe
+
+### 🎬 Canlı Görünüm — Türkçe Arayüz (`v0.1.5`)
+
+<div align="center">
+  <img src="assets/main-window.png" alt="Xenon Download Manager v0.1.5 — Xenon Nexus Koyu (Tam Görünüm)" width="900" />
+  <br />
+  <sub><b>Xenon Nexus Koyu (Tam Görünüm)</b> — Geçişli <i>URL ekle</i> düğmesi, <b>Lite | Tam</b> anahtarı, modern kenar çubuğu, canlı çoklu bağlantı ilerlemesi ve sürüklenebilir <i>Ayrıntılar</i> paneli</sub>
+</div>
+
+<br />
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <b>✨ Lite Görünüm (<code>Ctrl+Shift+L</code>)</b><br /><br />
+      <img src="assets/lite-mode.png" alt="Xenon Download Manager — Lite Görünüm (Koyu)" width="430" /><br />
+      <sub>Sade araç çubuğu, odaklı 4 sütunlu liste, ayrı pencere boyutu ve isteğe bağlı Ayrıntılar paneli</sub>
+    </td>
+    <td width="50%" align="center">
+      <b>☀️ Xenon Nexus Açık Tema</b><br /><br />
+      <img src="assets/main-window-light.png" alt="Xenon Download Manager — Xenon Nexus Açık Tema" width="430" /><br />
+      <sub>Temiz açık palet, derin gökyüzü ve çivit vurguları, canlı kategori etiketleri</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>⚡ Çoklu Bağlantı Canlı İlerleme</b><br /><br />
+      <img src="assets/progress-live.gif" alt="Canlı Çoklu Bağlantı İlerleme GIF (Türkçe)" width="430" /><br />
+      <sub>8 paralel bağlantı parçası, gerçek zamanlı hız ve otomatik tek/çoklu bağlantı uyumu</sub>
+    </td>
+    <td width="50%" align="center">
+      <b>🎨 11 Modern Tema Geçişi</b><br /><br />
+      <img src="assets/themes-showcase.gif" alt="11 Tema Geçişi GIF (Türkçe)" width="430" /><br />
+      <sub><b>Xenon Nexus</b> · macOS · Obsidian Carbon · Midnight Blue · Emerald Teal · Royal Amethyst · Nord Frost ve daha fazlası</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>🍏 macOS Koyu Tema</b><br /><br />
+      <img src="assets/theme-macos-dark.png" alt="Xenon Download Manager — macOS Koyu Teması" width="430" /><br />
+      <sub>Yuvarlak pencere düğmeleri, macOS kenar çubuğu ve squircle simgeler</sub>
+    </td>
+    <td width="50%" align="center">
+      <b>🤍 macOS Açık Tema</b><br /><br />
+      <img src="assets/theme-macos-light.png" alt="Xenon Download Manager — macOS Açık Teması" width="430" /><br />
+      <sub>Gümüş-gri üst çubuk, yumuşak açık yüzeyler ve Apple Blue vurguları</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>🍪 Yedek <code>cookies.txt</code> &amp; Site Oturumları</b><br /><br />
+      <img src="assets/options-cookies.png" alt="Site Oturumları ve Yedek Çerez Dosyası Ayarı" width="430" /><br />
+      <sub>Okul/MEB veya ortak ağlarda bot doğrulamasında otomatik devreye giren yerel yedek çerez desteği</sub>
+    </td>
+    <td width="50%" align="center">
+      <b>📂 388+ Uzantı &amp; Anlık Senkronizasyon</b><br /><br />
+      <img src="assets/options-filetypes.png" alt="Dosya Türleri ve İstisna Ayarları" width="430" /><br />
+      <sub>Eklenen uzantı anında yakalanır, silinen uzantı tarayıcıya geri devredilir</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b>🧩 Tarayıcı Uzantısı Kılavuzu</b><br /><br />
+      <img src="assets/extension-guide.png" alt="Tarayıcı Uzantısı Kurulum Kılavuzu" width="430" /><br />
+      <sub>Chrome, Edge, Brave, Opera, Vivaldi ve Firefox için 4 adımlı etkileşimli kurulum rehberi</sub>
+    </td>
+    <td width="50%" align="center">
+      <b>🔄 Hakkında &amp; Uygulama İçi Güncelleme</b><br /><br />
+      <img src="assets/about.png" alt="Xenon Download Manager v0.1.5 Hakkında" width="430" /><br />
+      <sub>GitHub Releases üzerinden SHA-256 doğrulamalı tek tıkla güncelleme ve otomatik yeniden başlatma</sub>
+    </td>
+  </tr>
+</table>
+
+<details>
+  <summary><b>🖤 Obsidian Carbon Görünümünü Aç (Türkçe)</b></summary>
+  <br />
+  <div align="center">
+    <img src="assets/theme-obsidian-carbon.png" alt="Xenon Download Manager — Obsidian Carbon Teması" width="840" />
+    <br />
+    <sub><b>Obsidian Carbon</b> — Yüksek kontrastlı saf karbon koyu tema</sub>
+  </div>
+</details>
+
+---
+
+### Uygulama Hakkında
+
+**Xenon Download Manager**, Windows (64-bit) için Rust ile geliştirilmiş hızlı, hafif ve ücretsiz bir indirme yöneticisidir. Kayıt, reklam veya abonelik gerektirmez.
+
+#### Öne Çıkan Özellikler
+- **Lite / Tam Görünüm & Modern Tasarım:** `Ctrl+Shift+L`, *Görünüm* menüsü veya araç çubuğundaki **Lite | Tam** anahtarıyla sade ve tam görünüm arasında anında geçiş; sürüklenebilir *Ayrıntılar* paneli, dar pencerede akıllı araç çubuğu taşma (`...`) menüsü, *Görünüm → Yoğunluk* (**Otomatik / Ferah / Kompakt**) ve **11 modern tema** (**Xenon Nexus**, **macOS**, **Obsidian Carbon**, **Midnight Blue**, **Emerald Teal**, **Royal Amethyst**, **Amber Bronze**, **Nord Frost**, **Sakura Rose**, **Cobalt Steel**, **Arctic Slate**).
+- **Çoklu Bağlantı & Akıllı Adres Yenileme:** Dosyaları paralel parçalara bölerek hızlandırır, tek bağlantılı sunuculara otomatik uyum sağlar. Süresi dolan indirme linklerinde *İndirme adresini yenile* penceresi açıkken tarayıcıdan aynı dosya tetiklendiğinde taze link/çerez/Referer otomatik aktarılır ve indirme kaldığı yerden sürdürülür.
+- **Gömülü `quickjs-ng v0.18.0` ile Sıfır Kurulum YouTube & Video Yakalama:** Harici `deno.exe` veya `node` kurulumu gerektirmeden YouTube JS imza/challenge akışlarını doğrudan `xdm.exe` içinde çözer. Yerleşik **HLS (`.m3u8`)**, **DASH (`.mpd`)**, **MP4**, **TS**, **FLV**, **M4A**, **WEBM/Opus** akış indirme, 3 parçalı `HEAD` ile gerçekçi VBR HLS boyut tahmini ve yerleşik LGPL FFmpeg birleştirme sunar.
+- **Okul / Kurumsal (MEB) Ağı & Yedek `cookies.txt` Kurtarma:** Sistem kök sertifikası doğrulamalı TLS kurtarma ve *Seçenekler → Site oturumları → Yedek çerez dosyası* desteğiyle yalnızca indirme bot doğrulaması/yetki hatasıyla engellendiğinde yerel çerez dosyasını otomatik devreye alır *(kendi `cookies.txt` dosyanızı yerelde oluşturmak için [Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc) uzantısını kullanabilirsiniz)*.
+- **Zengin Araçlar & Yerel Windows Deneyimi:** Zamanlayıcı ve kuyruk yönetimi, indirme başına hız sınırlayıcı, toplu indirme, arşiv ayıklama, BitTorrent, komut satırı aracı (`xdm-cli`), saydam yüksek çözünürlüklü simgeler, gömülü 4 özgün `.wav` bildirim sesi ve yerel Windows `ShellExecute` / `SHOpenWithDialog` (*Birlikte aç*) desteği.
+
+---
+
+### Windows Kurulumu (Windows 10 / 11 — 64-bit)
+
+[Releases](https://github.com/gglemas/Xenon-Download-Manager/releases/latest) sayfasından ihtiyacınıza uygun paketi indirin:
+
+| Paket | Açıklama |
+|---|---|
+| `Xenon-<sürüm>-setup.exe` | **Önerilen kurulum sihirbazı.** Uygulamayı, yerleşik FFmpeg'i ve tarayıcı iletişim köprüsünü tek seferde kurar. |
+| `Xdm-<sürüm>-x64.zip` | **Standart ZIP paketi.** İstediğiniz bir klasöre çıkarıp `xdm.exe` dosyasını çalıştırın. Ayarlar `%APPDATA%` içinde saklanır. |
+| `Xdm-<sürüm>-portable.zip` | **Taşınabilir (Portable) paket.** İçindeki `data` klasörü sayesinde tüm ayarlar ve indirme listesi uygulamanın yanında tutulur; kayıt defterine yazmaz. |
+| `mdm-chromium.zip` / `mdm-firefox.xpi` | Yalnızca tarayıcı uzantısını ayrıca indirmek isteyenler için ek paketler *(ana Windows paketlerinin içinde `extension/` klasöründe de bulunur)*. |
+
+---
+
+### Tarayıcı Uzantısı Nasıl Kurulur?
+
+1. **Masaüstü Köprüsü:** `Xenon-<sürüm>-setup.exe` kurulumu tarayıcı köprüsünü otomatik kaydeder. Taşınabilir pakette program klasöründen `.\xdm-nmhost.exe --register` komutunu çalıştırabilirsiniz *(uygulama içindeki **Yardım → Tarayıcı uzantısı kılavuzu** penceresi doğrudan `extension` klasörünü açar)*.
+2. **Chrome / Edge / Brave / Opera / Vivaldi:** `chrome://extensions` (veya tarayıcınızın uzantılar sayfası) → **Geliştirici modu** → **Paketlenmemiş öğe yükle** → `xdm.exe` yanındaki **`extension\chromium`** klasörünü seçin ve uzantıyı araç çubuğuna sabitleyin.
+3. **Mozilla Firefox:** `about:debugging#/runtime/this-firefox` → **Geçici Eklenti Yükle...** → **`extension\mdm-firefox.xpi`** dosyasını seçin.
+4. **Kullanım ipuçları:** Tek bağlantıyı tarayıcıyla indirmek için **`Alt` + tıklayın**; video oynatıcılardaki **Xenon** düğmesiyle 8K'ya kadar çözünürlük, ses ve kapsayıcı (`MP4`/`TS`/`MKV`/`FLV`/`MOV`) seçebilirsiniz.
+
+---
+
+### Komut Satırı (`xdm-cli`)
+
+```powershell
+# Doğrudan dosya, HLS (.m3u8) veya DASH (.mpd) indirme
+.\xdm-cli.exe get "https://example.com/file.zip" -o ".\indirilenler"
+
+# Video / DASH akışını belirli kapsayıcıda indirme (.mp4, .ts, .flv)
+.\xdm-cli.exe get "https://example.com/stream/manifest.mpd" -o ".\video.mp4"
+```
+
+---
+
+### Paylaşım Politikası ve Lisans
+
+- Bu genel depoda yalnızca **Windows uyumlu derlenmiş sürümler (Releases)** ve dokümantasyon paylaşılmaktadır.
+- **Lisans:** GNU General Public License v3.0 or later (`LICENSE`). Yerleşik `quickjs-ng`, FFmpeg (LGPL), simge setleri ve yerel coğrafi veri bileşenleri kendi açık lisanslarına (MIT, ISC, LGPL-2.1/3.0, CC BY 4.0) tabidir.
+
+---
+
 <div align="center">
 
-### ✨ Geliştirme İmzası / Co-Development Signature
+### ✨ Co-Development Signature / Geliştirme İmzası
 
 <a href="https://deepmind.google/technologies/gemini/">
   <img src="https://img.shields.io/badge/Google%20Gemini-Antigravity%20AI%20Partner-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini Antigravity" />
@@ -308,8 +324,8 @@ Download the package that fits your workflow from [Releases](https://github.com/
 <br />
 
 <sub>
-  <b>gglemas</b> &amp; <b>Google Gemini (Antigravity)</b> tarafından birlikte tasarlandı, test edildi ve cilalandı.<br />
-  <i>Architected, engineered, stress-tested, and polished together by <b>gglemas</b> &amp; <b>Google Gemini (Antigravity)</b> — Xenon Nexus Edition.</i>
+  <i>Architected, engineered, stress-tested, and polished together by <b>gglemas</b> &amp; <b>Google Gemini (Antigravity)</b> — Xenon Nexus Edition.</i><br />
+  <b>gglemas</b> &amp; <b>Google Gemini (Antigravity)</b> tarafından birlikte tasarlandı, test edildi ve cilalandı.
 </sub>
 
 </div>
